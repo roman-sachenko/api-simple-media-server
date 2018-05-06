@@ -1,0 +1,22 @@
+{
+  "name": "media_proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/bin/server.js",
+  "scripts": {
+    "start": "./node_modules/pm2/bin/pm2 start ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.16.3",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "pm2": "^2.10.2"
+  }
+}
